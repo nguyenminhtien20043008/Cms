@@ -17,11 +17,13 @@ $storefront_version	= $theme['Version'];
 /**
  * Load the individual classes required by this theme
  */
+
 require_once( 'inc/class-deli.php' );
 require_once( 'inc/class-deli-customizer.php' );
 require_once( 'inc/class-deli-template.php' );
 require_once( 'inc/class-deli-integrations.php' );
 require_once( 'inc/plugged.php' );
+// require_once('custom-elementor.php');
 
 /**
  * Do not add custom code / snippets here.
